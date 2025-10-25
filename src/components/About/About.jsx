@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div className={s.about}>
         <div className={s.imgContainer}>
-            <img src="../../images/schema.png" alt="" />
+            <img src="/images/schema.png" alt="" />
         </div>
         <div className={s.text}>
             <h2 className={s.h2}>Принцип роботи системи</h2>
