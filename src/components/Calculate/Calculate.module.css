@@ -184,7 +184,7 @@ button:hover {
 @media (min-width: 1025px) {
   .wrapper {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     gap: 40px;
     padding: 32px;
@@ -192,10 +192,12 @@ button:hover {
 
   .calculate {
     flex: 1 1 60%;
+    max-width: 628px;
   }
 
   .info {
     flex: 1 1 35%;
     font-size: 1rem;
+     max-width: 424px;
   }
 }

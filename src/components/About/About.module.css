@@ -41,6 +41,7 @@
 @media screen and (min-width: 480px) {
     .about{
         flex-direction: row;
+        justify-content: space-between;
         margin: 20px 24px;
         padding: 64px 50px;
         gap: 60px;
