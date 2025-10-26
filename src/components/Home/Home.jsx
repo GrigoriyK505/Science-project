@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className={s.home}>
       <div className={s.imgContainer}>
-        <img src="/images/геотермальний насос.jpg" alt="" />
+        <img src="/images/geotermalnyj-nasos.jpg" alt="Геотермальний насос" />
       </div>
       <div className={s.text}>
         <h1 className={s.h1}>Екологічне тепло для дому</h1>

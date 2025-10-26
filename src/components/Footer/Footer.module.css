@@ -1,0 +1,101 @@
+.footer {
+  background-color: var(--footer-background);
+  color: var(--text-footer);
+  padding: 24px 16px;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.info p,
+.sources p {
+  margin: 4px 0;
+  line-height: 1.4;
+}
+
+.project {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--hero-background);
+}
+
+/* ====== 📱 Mobile First (до 480px) ====== */
+@media (max-width: 480px) {
+  .footer {
+    font-size: 0.85rem;
+    padding: 20px 10px;
+  }
+
+  .container {
+    gap: 20px;
+  }
+
+  .info,
+  .sources {
+    width: 100%;
+  }
+}
+
+/* ====== 💻 Tablet (від 481px до 1024px) ====== */
+@media (min-width: 481px) and (max-width: 1024px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    text-align: left;
+  }
+
+  .info,
+  .sources {
+    flex: 1;
+  }
+}
+
+/* ====== 🖥 Desktop (від 1025px) ====== */
+@media (min-width: 1025px) {
+  .footer {
+    font-size: 1rem;
+    padding: 28px 40px;
+  }
+
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    text-align: left;
+  }
+
+  .info {
+    flex: 1 1 60%;
+  }
+
+  .sources {
+    flex: 1 1 40%;
+    text-align: right;
+    opacity: 0.9;
+  }
+
+  .sources p {
+    margin: 2px 0;
+  }
+}
