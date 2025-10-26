@@ -62,9 +62,8 @@
 
 @media screen and (min-width: 1024px) {
     .about {
-         margin: 20px;
+        margin: 20px auto;
          padding: 80px 100px;
-         justify-content: center;
          max-width: 1036px;
          gap: 70px;
     }
